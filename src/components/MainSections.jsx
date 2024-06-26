@@ -52,31 +52,16 @@ export default function MainSections() {
           <div className="grid grid-cols-3 gap-8">
             <div className="col-span-2 text-lg text-justify">
               <Reveal className="mb-6">
-                <p>
-                  Hey! I'm Bob, if you haven't already gathered that by now. I'm a painter turned
-                  software engineer from Daytona, Florida. I specialize in the backend, primarily
-                  Node and Rust, but love building with whatever tools are right for the job.
-                </p>
+                <p></p>
               </Reveal>
               <Reveal className="mb-6">
-                <p>
-                  I currently work for Google on Google Photos. I also toss in my ¢2 with the design
-                  systems teams from time to time (once an artist, always an artist, amirite?).
-                </p>
+                <p></p>
               </Reveal>
               <Reveal className="mb-6">
-                <p>
-                  Outside of work, I still love to paint. Any given Sunday you'll find me scribbling
-                  some happy clouds with my son ☁️ I even teach courses online if you're looking to
-                  learn!
-                </p>
+                <p></p>
               </Reveal>
               <Reveal className="mb-6">
-                <p>
-                  I'm passively looking for new positions where I can merge my love for code with my
-                  love for the canvas. If you think you've got an opening that I might like, let's
-                  connect 🔗
-                </p>
+                <p></p>
               </Reveal>
               <Reveal>
                 <div className="flex items-center h-8">
