@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sidebar-width: 3.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+aside {
+  width: var(--sidebar-width);
+  height: 100vh;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  background-color: rgba(11, 11, 11, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  writing-mode: vertical-lr;
+}
+
+.aside-item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 1.5rem 0;
+}
+
+.aside-item:hover {
+  background-color: rgba(121, 121, 121, 0.1);
+  border-right: rgb(0, 162, 255) solid 1px;
+}
+
+.aside-item-name {
+  writing-mode: horizontal-tb;
+  background-color: rgba(37, 37, 37, 0.75);
+  width: 80%;
+  aspect-ratio: 1;
+  border-radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aside-item-active {
+  background-color: rgba(121, 121, 121, 0.1);
+  border-right: rgb(0, 162, 255) solid 1px;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: var(--sidebar-width);
+  width: calc(100% - var(--sidebar-width));
+  height: 5rem;
+  z-index: 1;
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+header span {
+  height: 100%;
+  aspect-ratio: 1;
+  padding: 0.5rem;
+}
+
+section {
+  display: grid;
+  align-content: center;
+  padding-left: var(--sidebar-width);
+  min-height: 100vh;
+}
