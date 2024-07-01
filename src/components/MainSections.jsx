@@ -1,6 +1,6 @@
 import Reveal from "./Reveal";
 import CardGraphic from "./CardGraphic";
-import GithubLogo from "./GithubLogo";
+import LogoButton from "./LogoButton";
 import ObservableSection from "./ObservableSection";
 import SquareDecoration from "./SquareDecoration";
 import TechList from "./TechList";
@@ -8,6 +8,7 @@ import ExperienceCard from "./ExperienceCard";
 import experienceItems from "../data/experience-items";
 import Link from "./Link";
 import ProjectCard from "./ProjectCard";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function MainSections() {
   return (
@@ -86,7 +87,7 @@ export default function MainSections() {
               <Reveal>
                 <div className="flex items-center h-8">
                   <p className="text-primary-color mr-4">My links -&gt;</p>
-                  <GithubLogo />
+                  <LogoButton icon={faGithub} href="https://github.com/b1rigu" />
                 </div>
               </Reveal>
             </div>
