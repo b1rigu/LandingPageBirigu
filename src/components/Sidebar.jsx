@@ -13,14 +13,14 @@ export default function Sidebar() {
       </div>
       {Object.keys(sidebarContext.items).map((key) => {
         const item = sidebarContext.items[key];
-        let classes = "aside-item";
+        let classes = "aside-item hoverable";
 
         if (item.intersecting) {
           classes += " aside-item-active";
         }
 
         return (
-          <a className={classes} href={`#${key}`}>
+          <a key={key} className={classes} href={`#${key}`}>
             <p>{item.title}</p>
           </a>
         );

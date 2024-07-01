@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import sidebarItems from "../sidebar-items";
+import sidebarItems from "../data/sidebar-items";
 
 export const SidebarContext = createContext({
   items: sidebarItems,

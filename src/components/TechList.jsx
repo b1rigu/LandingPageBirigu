@@ -1,5 +1,6 @@
-import techsIUse from "../techsIUse";
+import techsIUse from "../data/techsIUse";
 import Reveal from "./Reveal";
+import TechPill from "./TechPill";
 
 export default function TechList() {
   return (
@@ -8,15 +9,7 @@ export default function TechList() {
         return (
           <Reveal key={key} className="mb-12">
             <p className="font-bold text-2xl mb-6">{techsIUse[key].title}</p>
-            <div className="flex flex-wrap gap-2">
-              {techsIUse[key].items.map((techName) => {
-                return (
-                  <div key={techName} className="py-1 px-2 bg-gray-700 rounded-badge">
-                    <p>{techName}</p>
-                  </div>
-                );
-              })}
-            </div>
+            <TechPill items={techsIUse[key].items} />
           </Reveal>
         );
       })}

@@ -41,7 +41,7 @@ aside {
   padding: 1.5rem 0;
 }
 
-.aside-item:hover {
+.aside-item.hoverable:hover {
   background-color: rgba(121, 121, 121, 0.1);
   border-right: rgb(0, 162, 255) solid 1px;
 }
