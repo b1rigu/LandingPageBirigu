@@ -48,7 +48,7 @@ export default function MainSections() {
         <div className="w-3/5 mx-auto">
           <div className="flex items-center mb-8">
             <Reveal>
-              <p className="font-bold text-6xl">
+              <p className="font-bold text-[4rem]">
                 About<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -104,7 +104,7 @@ export default function MainSections() {
           <div className="flex items-center mb-8">
             <hr className="me-8 flex-1"></hr>
             <Reveal>
-              <p className="font-bold text-6xl">
+              <p className="font-bold text-[4rem]">
                 Projects<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -117,7 +117,7 @@ export default function MainSections() {
         <div className="w-3/5 mx-auto">
           <div className="flex items-center mb-8">
             <Reveal>
-              <p className="font-bold text-6xl">
+              <p className="font-bold text-[4rem]">
                 Experience<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -147,7 +147,7 @@ export default function MainSections() {
           <div className="flex items-center mb-8">
             <hr className="me-8 flex-1"></hr>
             <Reveal>
-              <p className="font-bold text-6xl">
+              <p className="font-bold text-[4rem]">
                 Blog<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>

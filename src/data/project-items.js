@@ -23,7 +23,7 @@ const projectItems = [
       an easy but feature rich solution for their accounting. I have worked mostly on the 
       Front-end (Angular) and did some Back-end (Django) to maintain API's.
     `,
-    techsUsed: ["Django", "HTML", "CSS", "Angular"],
+    techsUsed: ["Django", "HTML", "CSS", "Angular", "PostgreSQL", "TypeScript"],
     github: "",
     liveSite: "https://baaz.mn/",
   },
