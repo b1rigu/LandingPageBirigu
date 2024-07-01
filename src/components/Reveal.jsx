@@ -37,7 +37,7 @@ export default function Reveal({ children, className }) {
         initial="hidden"
         animate={slideControls}
         transition={{ duration: 0.5, ease: "easeIn" }}
-        className="absolute top-1 bottom-1 left-0 right-0 bg-primary-color z-10"
+        className="absolute top-1 bottom-1 left-0 right-0 bg-primary-color z-10 rounded-xl"
       ></motion.div>
     </div>
   );

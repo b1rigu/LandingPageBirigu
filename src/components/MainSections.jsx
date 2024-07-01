@@ -13,15 +13,15 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function MainSections() {
   return (
     <main>
-      <section>
+      <section className="overflow-hidden">
         <CardGraphic />
       </section>
 
       <section className="bg-gradient-to-b from-black to-base-100">
-        <div className="w-3/5 mx-auto relative">
+        <div className="lg:w-3/5 mx-auto relative px-4">
           <SquareDecoration />
           <Reveal>
-            <p className="font-bold text-[6rem]">
+            <p className="font-bold text-[4rem] lg:text-[6rem] ">
               Hello, I'm Birigu<span className="text-primary-color">.</span>
             </p>
           </Reveal>
@@ -32,30 +32,30 @@ export default function MainSections() {
             </p>
           </Reveal>
           <Reveal>
-            <p className="text-lg pb-4 w-[40rem]">
+            <p className="text-lg pb-4 lg:w-[40rem] ">
               I've been into programming since I was 12. I've spent the last 3 years building and
               scaling software as an Full Stack Developer. I love talking with people and hearing
               their ideas, also love beatboxing and more. Let's connect!
             </p>
           </Reveal>
-          <a className="btn btn-outline btn-primary" href="#contact">
+          <a className="btn btn-outline btn-primary mb-16" href="#contact">
             Contact me
           </a>
         </div>
       </section>
 
       <ObservableSection id="about">
-        <div className="w-3/5 mx-auto">
-          <div className="flex items-center mb-8">
+        <div className="lg:w-3/5 mx-auto">
+          <div className="flex items-center mb-8 flex-wrap">
             <Reveal>
-              <p className="font-bold text-[4rem]">
+              <p className="font-bold text-[3rem] lg:text-[4rem]">
                 About<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
             <hr className="ms-8 flex-1"></hr>
           </div>
           <div className="grid grid-cols-3 gap-8">
-            <div className="col-span-2 text-lg text-justify">
+            <div className="col-span-3 lg:col-span-2 text-lg text-justify">
               <Reveal className="mb-6">
                 <p>
                   Hello, I'm Birigu. I started to fall in love with programming in around 2012
@@ -92,7 +92,7 @@ export default function MainSections() {
               </Reveal>
             </div>
 
-            <div className="col-span-1">
+            <div className="col-span-3 lg:col-span-1">
               <TechList />
             </div>
           </div>
@@ -100,11 +100,11 @@ export default function MainSections() {
       </ObservableSection>
 
       <ObservableSection id="projects">
-        <div className="w-3/5 mx-auto">
-          <div className="flex items-center mb-8">
+        <div className="lg:w-3/5 mx-auto">
+          <div className="flex items-center mb-8 flex-wrap">
             <hr className="me-8 flex-1"></hr>
             <Reveal>
-              <p className="font-bold text-[4rem]">
+              <p className="font-bold text-[3rem] lg:text-[4rem]">
                 Projects<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -114,10 +114,10 @@ export default function MainSections() {
       </ObservableSection>
 
       <ObservableSection id="experience">
-        <div className="w-3/5 mx-auto">
-          <div className="flex items-center mb-8">
+        <div className="lg:w-3/5 mx-auto">
+          <div className="flex items-center mb-8 flex-wrap">
             <Reveal>
-              <p className="font-bold text-[4rem]">
+              <p className="font-bold text-[3rem] lg:text-[4rem]">
                 Experience<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -143,11 +143,11 @@ export default function MainSections() {
       </ObservableSection>
 
       <ObservableSection id="blog">
-        <div className="w-3/5 mx-auto">
-          <div className="flex items-center mb-8">
+        <div className="lg:w-3/5 mx-auto">
+          <div className="flex items-center mb-8 flex-wrap">
             <hr className="me-8 flex-1"></hr>
             <Reveal>
-              <p className="font-bold text-[4rem]">
+              <p className="font-bold text-[3rem] lg:text-[4rem]">
                 Blog<span className="text-primary-color font-bold">.</span>
               </p>
             </Reveal>
@@ -157,14 +157,14 @@ export default function MainSections() {
       </ObservableSection>
 
       <ObservableSection id="contact">
-        <div className="w-2/5 mx-auto flex flex-col items-center">
+        <div className="lg:w-2/5 mx-auto flex flex-col items-center flex-wrap">
           <Reveal>
-            <p className="font-bold text-[6rem]">
+            <p className="font-bold text-[4rem] lg:text-[6rem]">
               Contact<span className="text-primary-color font-bold">.</span>
             </p>
           </Reveal>
           <Reveal>
-            <p className="text-lg mb-8 text-center">
+            <p className="text-lg mb-8 text-center flex-wrap">
               Shoot me an email if you want to connect! You can also find me on
               <Link
                 href="https://www.linkedin.com/in/biligjargal-ganbold-a9a05917a"

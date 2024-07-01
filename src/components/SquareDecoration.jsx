@@ -1,7 +1,7 @@
 export default function SquareDecoration() {
-  const squareSize = 20;
+  const squareSize = 15;
   return (
-    <div className="absolute -top-20 left-1/3">
+    <div className="absolute -top-20 left-1/3 hidden lg:block">
       {Array(squareSize)
         .fill(0)
         .map((_, rowIndex) => {

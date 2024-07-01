@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 aside {
   width: var(--sidebar-width);
   height: 100vh;
@@ -86,8 +90,16 @@ header span {
 section {
   display: grid;
   align-content: center;
-  padding-left: var(--sidebar-width);
   min-height: 100vh;
+}
+
+.canvas-container {
+  width: calc(100vw - var(--sidebar-width));
+  height: 100vh;
+}
+
+main {
+  padding-left: var(--sidebar-width);
 }
 
 .clamp-text {
