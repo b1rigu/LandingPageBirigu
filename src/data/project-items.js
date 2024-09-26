@@ -27,6 +27,19 @@ const projectItems = [
     github: "",
     liveSite: "https://baaz.mn/",
   },
+  {
+    id: 3,
+    imgLink: "videoCallApp.PNG",
+    title: "Peer to peer video call app",
+    description: `
+      I made this project as a part of my daily challenges where I try to make a full app in one day.
+      This app is facebook messenger like peer to peer video call app. One can make a room and other can join it.
+      It has a screen share feature and also available on web and mobile. The UI is very simple and clean with great responsiveness.
+    `,
+    techsUsed: ["Next.js", "Vercel", "Supabase", "TypeScript", "TailwindCSS", "Shadcn"],
+    github: "https://github.com/b1rigu/video-call-app",
+    liveSite: "https://video-call-app-lemon.vercel.app/",
+  },
 ];
 
 export default projectItems;
